@@ -5,7 +5,7 @@ const Hero = () => {
     <section>
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6  lg:px-8 ">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className=" hidden md:block relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+      <div className="hidden md:block relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <Image
           alt="hero section image"
           src='/doctor-2.jpeg'
@@ -14,7 +14,7 @@ const Hero = () => {
           className="absolute inset-0 h-full w-full object-cover rounded-3xl"
         />
       </div>
-      <div className=" md:hidden relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+      <div className="md:hidden relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <Image
           alt="hero section image"
           src='/doctors.jpg'
